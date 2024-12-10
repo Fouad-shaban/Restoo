@@ -5,7 +5,7 @@ function NavServices() {
   const {totalUniqueItems} =useCart();
   return (
     <div>
-      <div class="container-xxl position-relative p-0">
+      <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
           <a href="" class="navbar-brand p-0">
             <h1 class="text-primary m-0">
@@ -60,7 +60,7 @@ function NavServices() {
           </div>
         </nav>
 
-        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+        <div class="container-fluid py-5 bg-dark hero-header mb-5">
           <div class="container text-center my-5 pt-5 pb-4">
             <h1 class="display-3 text-white mb-3 animated slideInDown luckiest-guy-regular">
               Services
